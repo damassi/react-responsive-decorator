@@ -1,0 +1,47 @@
+{
+  "name": "react-responsive-decorator",
+  "version": "0.0.1",
+  "description": "Higher order component wrapper / decorator around enquire for developing responsive react components",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "grunt",
+    "compile": "grunt dist",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damass/react-responsive-decorator"
+  },
+  "keywords": [
+    "react",
+    "media-query",
+    "responsive",
+    "react-component"
+  ],
+  "authors": [
+    "Kiran Abburi",
+    "Christopher Pappas"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damassi/react-responsive-decorator/issues"
+  },
+  "homepage": "https://github.com/damassi/react-responsive-decorator",
+  "dependencies": {
+    "can-use-dom": "^0.1.0",
+    "enquire.js": "^2.1.1",
+    "json2mq": "^0.2.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.0",
+    "grunt-browser-sync": "^1.9.2",
+    "grunt-browserify": "^3.7.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.1.0",
+    "react": "^0.13.2"
+  }
+}
